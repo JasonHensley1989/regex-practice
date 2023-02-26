@@ -8,9 +8,14 @@ let str = "Hello, my name is Jason";
 let str2 = "And i am a robot arent i";
 
 // first the regex must be put into a variable to be tested
+// global test
 const regex = /my/g
+
+// global test with case insensitivity
 const regex2= /i+/gi
+// global test with case insensitivity and a plus a followed by s search
 const regex3= /a+s?/gi
+
 const regex4 = /a/g
 
 

@@ -25,6 +25,7 @@ const regex5 = /fat|cat|the/g
 const regex6 = /the/
 // test to produce true or false with js method
 const regex7 = /str*/
+// tests for a match
 
 
 
@@ -33,9 +34,12 @@ const result = str.search(regex);
 const result2 = str2.match(regex2);
 const result3 = str.search(regex3);
 const result4 = str3.search(regex4);
-const result5 = str3.search(regex5)
-const result6 = str3.search(regex6)
-console.log(result6);
+const result5 = str3.search(regex5);
+const result6 = str3.search(regex6);
+const result7 = regex7.test(str3);
+
+
+console.log(result7);;
 // console.log(result2);
 // console.log(result3);
 // console.log(result4);

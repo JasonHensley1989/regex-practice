@@ -6,7 +6,8 @@
 
 let str = "Hello, my name is Jason";
 let str2 = "And i am a robot arent i";
-const str3 = "The fat cat ran down the street. It was searching for a mouse to eat.";
+let str3 = "The fat cat ran down the street. It was searching for a mouse to eat.";
+let numStr = 'hello0123456';
 
 
 // first the regex must be put into a variable to be tested
@@ -25,8 +26,10 @@ const regex5 = /fat|cat|the/g
 const regex6 = /the/
 // test to produce true or false with js method
 const regex7 = /str*/
-// tests for a match
-
+// tests for a match numbers and letters
+const regex8 = /[1-4a-l]/g
+// exclude from match
+const regex9 = /[^1-4^a-l]/g
 
 
 // tests
@@ -37,12 +40,16 @@ const result4 = str3.search(regex4);
 const result5 = str3.search(regex5);
 const result6 = str3.search(regex6);
 const result7 = regex7.test(str3);
+const result8 = numStr.match(regex8);
+const result9 = numStr.match(regex9);
 
 
-console.log(result7);;
+
+console.log(result9);;
 // console.log(result2);
 // console.log(result3);
 // console.log(result4);
 
 
 // REGEX - DAY 2
+

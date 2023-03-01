@@ -57,4 +57,4 @@ console.log(result9);;
 // Continued practice using Regex.
 
 const newRegex = /[^aeiou]/ig;
-
+const newResult = str.match(newRegex);

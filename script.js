@@ -54,4 +54,7 @@ console.log(result9);;
 // REGEX - DAY 2
 
 // Continued for Day 3
+// Continued practice using Regex.
+
+const newRegex = /[^aeiou]/ig;
 

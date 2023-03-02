@@ -58,3 +58,4 @@ console.log(result9);;
 
 const newRegex = /[^aeiou]/ig;
 const newResult = str.match(newRegex);
+console.log(newResult)
